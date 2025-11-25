@@ -14,7 +14,7 @@ int main()
             t = a + b;
             a = b;
             b = t;
-            file << "termino :" << a << endl;
+            file << "termino " << i + 1 << ": " << a << endl;
         }
         file.close();
     }
